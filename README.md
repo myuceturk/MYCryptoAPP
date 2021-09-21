@@ -1,2 +1,2 @@
 # MYCryptoAPP
-Crypto coin extensions for Google Chrome
+Crypto coin extension for Google Chrome
