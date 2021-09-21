@@ -1,0 +1,79 @@
+body{
+    color: #fff;
+}
+
+.ccapp-menu{
+    background: rgb(61,0,159);
+    background: linear-gradient(45deg, rgba(61,0,159,1) 0%, rgba(111,0,255,1) 100%);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 50px;
+    line-height: 30px;    
+}
+.ccapp-menu li a{
+    color: #fff;
+}
+.ccapp-menu li a:hover{
+    color: rgb(189, 189, 189);
+}   
+
+.container-div{
+    width: 300px;
+    height: 500px;
+    background: rgb(51,51,51);
+    background: linear-gradient(45deg, rgba(51,51,51,1) 0%, rgba(9,9,9,1) 100%);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.crypto-ul{
+    list-style: none;
+    height: 425px;
+    position: relative;
+    overflow-y: scroll;
+    padding: 0;
+    margin-top: 15px;
+}
+.crypto-ul li{
+    margin-bottom: 15px;
+    background: #343434;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+.crypto-ul li:hover{
+    margin-bottom: 15px;
+    background: #4e4e4e;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;    
+}
+
+.crypto-data{
+    font-size: 14px;
+}
+.crypto-data .crypto-price{
+    text-align: left;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+/* Scrool Bar CSS */
+.crypto-ul::-webkit-scrollbar {
+    display: none;
+    width: 5px;
+    visibility: hidden;
+} 
+.crypto-ul::-webkit-scrollbar-track {
+    background-color: rgb(51, 51, 51);
+    border-radius: 100px;
+} 
+.crypto-ul::-webkit-scrollbar-thumb {
+    background-color: #fdfbf7;
+    border-radius: 100px;
+}

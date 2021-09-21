@@ -1,0 +1,17 @@
+{
+
+    "name": "MCryptocurrency",
+    "description": "Günlük kripto borsasını takip edebilirsiniz.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+
+        "default_title": "MCryptocurrency",
+        "default_icon": "ccapp.png",
+        "default_popup": "templates/index.html"
+
+    },
+
+    "icons": {"128": "ccapp.png"}
+
+}
